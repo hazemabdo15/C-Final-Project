@@ -14,7 +14,7 @@ int print_menu(void) {
 void encrypt(void) {
 	char user_input[50];
 	int i;
-	printf("PLease type the message you want to encrypt : \n");
+	printf("Please type the message you want to encrypt : \n");
 	scanf_s("%s", user_input);
 	for(i = 0; (i < 50 && user_input[i] != '\0'); i++)
         user_input[i] = user_input[i] + 3;
@@ -27,7 +27,7 @@ void encrypt(void) {
 void decrypt() {
 	char user_input2[50];
 	int i;
-	printf("PLease type the message you want to decrypt : \n");
+	printf("Please type the message you want to decrypt : \n");
 	scanf_s("%s", user_input2);
 	 for(i = 0; (i < 50 && user_input2[i] != '\0'); i++)
         user_input2[i] = user_input2[i] - 3;
